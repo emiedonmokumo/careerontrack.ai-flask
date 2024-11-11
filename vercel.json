@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "careerontrack-flask/app.py",
+        "src": "careerontrack.ai-flask/app.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "careerontrack-flask/app.py"
+        "dest": "careerontrack.ai-flask/app.py"
       }
     ]
   }
